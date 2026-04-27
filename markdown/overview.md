@@ -4,14 +4,14 @@
 
 ---
 
-### „Eine KI, die menschliche Sprache versteht und erzeugt.“
+### „Ein statistisches Sprachmodell, das das nächste sinnvolle Token vorhersagt.“
 <br>
 
 <div class="fragment">
 <ul>
-<li> Versteht und verarbeitet Texte wie ein Mensch.
-<li> Wird in Bereichen wie Kundenservice, Übersetzung und Textgenerierung eingesetzt.
-<li> Beispiele: ChatGPT, Google Bard, Meta's Llama.
+<li>Trainiert auf sehr großen Textmengen.</li>
+<li>Basierend auf Transformer-Architekturen.</li>
+<li>Heute oft multimodal: Text, Bild, Audio und Dateien.</li>
 </ul>
 </div>
 
@@ -23,290 +23,112 @@
 
 ---
 
+# Bekannte Modelle
+
+<div class="fragment">
+<ul>
+<li>Geschlossen: ChatGPT, Claude, Gemini</li>
+<li>Offen: Llama, Mistral, Qwen, DeepSeek</li>
+<li>Lokal: Ollama, llama.cpp, LM Studio</li>
+</ul>
+</div>
+
+---
+
 # Wie funktioniert ein LLM?
 
-<div class="width_img_wrapper_80">
-  ![xkcd](images/xkcd/wherethemagichappens.jpg)
-</div>
-
----
-
-# Wie funktioniert ein LLM?
-
 <div class="fragment">
 <ul>
-<li> **Trainingsdaten**: Milliarden von Texten aus Büchern, Artikeln und Webseiten.
+<li><strong>Pretraining</strong>: lernt Muster, Grammatik und Weltwissen aus Daten.</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Mustererkennung**: Nutzt große Datenmengen, um sprachliche Muster zu lernen.
+<li><strong>Finetuning</strong>: richtet Verhalten auf Aufgaben, Stil und Sicherheit aus.</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Parameteranzahl**: Moderne LLMs haben bis zu 175 Milliarden Parameter (z. B. GPT-3 von 2020).
+<li><strong>Inferenz</strong>: nutzt Prompt, Kontextfenster und Sampling für Antworten.</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Kontextbewusstsein**: Versteht den Zusammenhang von Sätzen und generiert relevante Antworten.
+<li><strong>Tools</strong>: Suche, RAG, Code-Ausführung oder APIs erhöhen den Nutzwert.</li>
 </ul>
 </div>
 
 ---
 
-# Was kann ein LLM?
+# Was kann ein LLM heute gut?
 
-<div class="width_img_wrapper_60">
-  ![xkcd](images/xkcd/is_it_worth_the_time.png)
-</div>
-
----
-
-# Was kann ein LLM?
-
-- Texte Zusammenfassen / Analysieren
-- Texte Übersetzen
-- Texte Aufwerten
-- Code-Generierung
-- Kreatives Schreiben
-- Automatisierung
-- ...
+- Inhalte zusammenfassen und strukturieren
+- Übersetzen und umformulieren
+- Fragen über Dokumente beantworten
+- Code erklären, erzeugen und testen helfen
+- Mehrstufige Workflows unterstützen
 
 ---
 
-# Texte Zusammenfassen / Analysieren
+# Typische Stärken
 
-<div class="width_img_wrapper_60">
-  ![Content](images/xkcd/university_website.png)
-</div>
-
----
-
-# Texte Zusammenfassen / Analysieren
-
-### „Wesentliche Punkte aus langen Dokumenten in Sekunden extrahieren.“
+### „Schnell im ersten Entwurf, stark bei Fleißarbeit, nützlich mit gutem Kontext.“
 
 <div class="fragment">
 <ul>
-<li> **Anwendung**: Managementberichte, Meeting-Protokolle.
+<li>Meeting-Notizen, E-Mails, Tickets, Spezifikationen</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Vorteil**: Spart Zeit und erleichtert Entscheidungsfindung.
+<li>Extraktion strukturierter Daten aus unstrukturierten Quellen</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Beispiel**: 50-seitige Berichte in 5 prägnanten Punkten zusammengefasst.
+<li>Unterstützung bei Recherche, Dokumentation und Refactoring</li>
 </ul>
 </div>
 
 ---
 
-# Texte Übersetzen
-
-### „Sprachbarrieren in Echtzeit überwinden.“
-
-z.B.: DeepL (aus Köln)
+# Was ist neu seit 2024?
 
 <div class="fragment">
 <ul>
-<li> **Automatische Übersetzungen**: Texte und Konversationen.
+<li><strong>Multimodalität</strong>: Text, Bild, Audio, Video und UI-Verständnis</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Multilinguale Unterstützung**: Ideal für internationale Teams.
+<li><strong>Reasoning-Modelle</strong>: besser bei mehrstufigen Problemen</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Beispiel**: Übersetzung von E-Mails oder technischen Dokumentationen.
-</ul>
-</div>
-
----
-
-# Texte Aufwerten
-
-### „Sätze, Absätze und Aufgaben mit Kontextgenauigkeit vervollständigen.“
-
-<div class="fragment">
-<ul>
-<li> **Vorschläge während des Tippens**: E-Mails, Chatnachrichten, Code, ...
+<li><strong>Lange Kontexte</strong>: ganze Dokus, Codebasen und Meetings im Prompt</li>
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li> **Zeitersparnis**: weniger Schreibarbeit durch intelligente Vorschläge
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> **Beispiel**: automatisierte Antworten im Kundenservice / kreative Textideen und Werbeslogans
+<li><strong>Kleine lokale Modelle</strong>: mehr Datenschutz und geringere Kosten</li>
 </ul>
 </div>
 
 ---
 
-# Code-Generierung
+# Gute Praxis im Alltag
 
-### Strukturierte Daten aus unstrukturierten Quellen
-
-<div class="fragment">
-<ul>
-<li> Automatisches Erstellen von SQL-Abfragen
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> Extraktion relevanter Daten aus großen Datenmengen
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> Code-Debugging und -Optimierung / Validierung
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> Code erklären <> Code verstehen
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> **Beispiel**: Google erzeugt ein Viertel seines Codes mit KI | https://www.golem.de/news/kuenstliche-intelligenz-google-erzeugt-ein-viertel-seines-codes-mit-ki-2410-190320.html
-</ul>
-</div>
-
----
-
-<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted" -->
-
-# Code-Generierung
-
-<div class="fragment">
-<h3>Beispiel 1:</h3>
-
-Besseres autocompletion via local LLM (z.B. test_llm.php -> `'model'  => $model`)
-</div>
-
-<div class="fragment">
-<h3>Beispiel 2:</h3>
-
-https://chatgpt.com/g/g-676ef0f991a08191ba499a6401303b1b-legacy-code-jedi
-</div>
-
-<div class="fragment">
-- "Hi Jedi Master, erstelle mir eine PHP Klasse welche ein Skalarprodukt berechnet."
-</div>
-
-<div class="fragment">
-- "prüfe den Code via phpstan"
-</div>
-
----
-
-<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted" -->
-
-# Code-Generierung
-
-### Beispiel 3:
-
-https://chatgpt.com/g/g-675240b7404881919a18de0d863d4b97-it-portal
-
-<div class="fragment">
-- "erstelle eine SQL query welche alle Mitarbeiter sortiert nach der letzten Änderung ausgibt"
-</div>
-
-<div class="fragment">
-- "check if the column really exists"
-</div>
-
----
-
-<!-- .slide: data-background="images/reactions/J47GJ.gif" data-state="inverted" -->
-
-# Kreatives Schreiben
-
-### Unterstützung bei Content-Erstellung
-
-<div class="fragment">
-<ul>
-<li> Geschichten, Gedichte und Skripte schreiben
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> Werbeslogans und Marketingideen
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> Unterstützung bei Autorenblockaden
-</ul>
-</div>
-
----
-
-# Kreatives Schreiben
-
-https://gemini.google.com/app
-
-<div class="fragment">
-- "Wie viele Text (SEO, etc.) wurden im Jahr 2024 mithilfe von LLMs geschrieben?"
-</div>
-
-<div class="fragment">
-- "Zerlegt diese Industrie (SEO Texte) sich damit nicht selbst?"
-</div>
-
-<div class="fragment">
-- "Welchen Einfluss hat dies auf die Qualität im Web / und somit auf die Google Suche?"
-</div>
-
-<div class="fragment">
-- "Quellen?"
-</div>
-
----
-
-# Automatisierung von Arbeitsprozessen
-
-### Effizienzsteigerung im Arbeitsalltag
-
-<div class="fragment">
-<ul>
-<li> Automatisches Generieren von Berichten
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> Workflow-Optimierung in Unternehmen
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li> Integration in digitale Assistenten
-</ul>
-</div>
+1. Aufgabe klar formulieren
+2. Relevanten Kontext mitgeben
+3. Modell an Daten oder Tools anbinden
+4. Ergebnis prüfen, messen und dokumentieren
+5. Keine sensiblen Daten unkontrolliert hochladen

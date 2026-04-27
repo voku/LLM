@@ -1,11 +1,11 @@
 <!-- .slide: data-background="images/reactions/tumblr_inline_mmrb6wlC0g1qz4rgp.gif" data-state="inverted" -->
 <br /><br />
 <br /><br />
-# Willkommen in der Welt der LLMs!
+# LLMs 2026
 
 <p class="fragment">
   <strong>
-    “Wie Maschinen Sprache verstehen und generieren.”
+    Was aktuelle Modelle können, wo sie helfen und wo sie scheitern.
   </strong>
 </p>
 ---
@@ -17,10 +17,9 @@
       Lars Moelleken |
     </h1>
     <ul>
-      <li>Webentwickler !</li>
-      <li>Sysadmin !</li>
-      <li>PHP-Developer !</li>
+      <li>Softwareentwickler</li>
+      <li>Web &amp; Automatisierung</li>
+      <li>Praxis mit lokalen und gehosteten LLMs</li>
     </ul>
   </div>
 </div>
-
