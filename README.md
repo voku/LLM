@@ -1,6 +1,6 @@
 LLM
 =============
 
-Vortrag über LLM in Deutsch
+Vortrag über LLMs in Deutsch.
 
 [Slides](http://voku.github.io/LLM/)

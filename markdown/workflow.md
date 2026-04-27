@@ -81,7 +81,7 @@ Mathe!: Lineare Algebra (Vektoren, Matrizen, Skalarprodukt, ...)
 
 - „Godfather of AI“ – seine Ideen revolutionierten die KI-Forschung.
 - Backpropagation-Algorithmus (1986): Lernmechanismus für neuronale Netze.
-- Autoencoder (1993): Abstraktion durch engstellen in neuronale Netzen.
+- Autoencoder (1993): Abstraktion durch Engstellen in neuronalen Netzen.
 
 <div class="width_img_wrapper_20">
   ![Hinton](images/hinton_neural.png)
@@ -111,7 +111,7 @@ https://de.wikipedia.org/wiki/Long_short-term_memory
 - Pioniere des modernen Machine Learning.
 
 z.B.: Embeddings
-3 Dimensionen (3 Zahlen) → 11.000 ChatGPT 3 (von 2020)
+3 Dimensionen (3 Zahlen) → 11.000+ Dimensionen in heutigen Sprachmodellen
 <div class="width_img_wrapper_30">
   ![Embeddings](images/embeddings.png)
 </div>
@@ -145,8 +145,8 @@ z.B.: Embeddings
 
 # 2018 - GPT-1 (OpenAI)
 
-- Transformer-Modell für Texte nicht Übersetzungen
-- Ähnlich wie bei Andrey Markov von 1906
+- Transformer-Modell für Texte statt Übersetzungen.
+- Ähnlich wie bei Andrey Markov von 1906: Vorhersage des nächsten Wortes / Tokens.
 
 ---
 
@@ -156,29 +156,32 @@ z.B.: Embeddings
 
 ---
 
-# 2023 - Open Source LLMs
+# Seit 2023 - Open Source LLMs
 
 - Meta veröffentlicht Llama 2.
 - Hugging Face treibt Open-Source-KI voran.
-
-llama.cpp: first commit
-https://github.com/ggerganov/llama.cpp/blob/26c084662903ddaca19bef982831bfb0856e8257/main.cpp#L387
-
-ollama: local LLM
-https://github.com/ollama/ollama
+- Lokale Tools wie llama.cpp und Ollama machen LLMs breiter nutzbar.
 
 ---
 
-# 2024 - GPT-4o und Gemini
+# Multimodale Modelle
 
-- Multimodale KI-Modelle.
 - Text, Bild, Audio, Video
+- Modelle verstehen heute deutlich mehr als reinen Text.
+
+---
+
+# Aktuelle Trends
+
+- Größere Kontextfenster
+- Bessere Tool-Nutzung und Automatisierung
+- Mehr lokale Modelle für Datenschutz und Kostenkontrolle
 
 ---
 
 # Zusammenfassung
 
-- Vom Perzeptron zu GPT-4: Eine Reise voller Innovationen.
+- Vom Perzeptron zu heutigen LLMs: Eine Reise voller Innovationen.
 - Jedes Modell brachte neue Fähigkeiten, von Sprachverstehen bis Kreativität.
 
 "The evolutionary tree of modern LLMs"
@@ -196,9 +199,9 @@ https://arxiv.org/pdf/2304.13712
 
 ### Energie und Hardware
 
-- GPT-3 Training ~ 1287 Megawattstunden → ~ Atomkraftwerk in einer Stunde
-- Erhebliche Kosten für Hardware (GPU, Kühlung, Rechenzentrum, ...)
-- ChatGPT benötigt ~ 10x mehr Rechenleistung als 1x Google Suche
+- Training und Inferenz benötigen viel Energie und teure Hardware.
+- Erhebliche Kosten für GPU, Kühlung, Rechenzentrum, ...
+- Große Modelle sind nicht automatisch die beste Wahl für jeden Anwendungsfall.
 
 ---
 
@@ -208,7 +211,7 @@ https://arxiv.org/pdf/2304.13712
 
 - LLMs können repetitive Aufgaben übernehmen (z. B. Datenzusammenfassungen, Vertragsprüfung).
 - Automatisierung in Kundenservice, Recht und sogar kreativen Berufen.
-- Junior Entwickler kann man schon heute durch LLMs ersetzten :/
+- Rollen verändern sich: weniger Routine, mehr Kontrolle und Fachkontext.
 
 ---
 
@@ -223,5 +226,4 @@ https://arxiv.org/pdf/2304.13712
 ### Bias und Fairness
 
 - Trainingsdaten enthalten Vorurteile, die sich auf Antworten auswirken.
-- OpenAI: Exklusive kooperationen mit Welt.de / Bild.de
-- DeepSeek: aus China + mit Zensur
+- Modelle spiegeln Herkunft, Datenbasis und Sicherheitsregeln ihrer Anbieter.

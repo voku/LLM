@@ -5,7 +5,7 @@
 
 <p class="fragment">
   <strong>
-    “Wie Maschinen Sprache verstehen und generieren.”
+    „Wie Maschinen Sprache verstehen, generieren und unterstützen.“
   </strong>
 </p>
 ---
@@ -17,10 +17,9 @@
       Lars Moelleken |
     </h1>
     <ul>
-      <li>Webentwickler !</li>
-      <li>Sysadmin !</li>
-      <li>PHP-Developer !</li>
+      <li>Webentwickler</li>
+      <li>Sysadmin</li>
+      <li>PHP-Developer</li>
     </ul>
   </div>
 </div>
-

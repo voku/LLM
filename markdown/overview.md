@@ -11,7 +11,7 @@
 <ul>
 <li> Versteht und verarbeitet Texte wie ein Mensch.
 <li> Wird in Bereichen wie Kundenservice, Übersetzung und Textgenerierung eingesetzt.
-<li> Beispiele: ChatGPT, Google Bard, Meta's Llama.
+<li> Beispiele: ChatGPT, Claude, Gemini, Meta's Llama.
 </ul>
 </div>
 
@@ -47,7 +47,7 @@
 
 <div class="fragment">
 <ul>
-<li> **Parameteranzahl**: Moderne LLMs haben bis zu 175 Milliarden Parameter (z. B. GPT-3 von 2020).
+<li> **Parameteranzahl**: Moderne LLMs arbeiten mit Milliarden Parametern.
 </ul>
 </div>
 
@@ -191,7 +191,7 @@ z.B.: DeepL (aus Köln)
 
 <div class="fragment">
 <ul>
-<li> **Beispiel**: Google erzeugt ein Viertel seines Codes mit KI | https://www.golem.de/news/kuenstliche-intelligenz-google-erzeugt-ein-viertel-seines-codes-mit-ki-2410-190320.html
+<li> **Beispiel**: KI-Tools helfen heute oft beim Boilerplate-Code, Tests und Refactoring.
 </ul>
 </div>
 
@@ -204,21 +204,14 @@ z.B.: DeepL (aus Köln)
 <div class="fragment">
 <h3>Beispiel 1:</h3>
 
-Besseres autocompletion via local LLM (z.B. test_llm.php -> `'model'  => $model`)
+Besseres Autocomplete via lokalem LLM
 </div>
 
 <div class="fragment">
 <h3>Beispiel 2:</h3>
 
-https://chatgpt.com/g/g-676ef0f991a08191ba499a6401303b1b-legacy-code-jedi
-</div>
-
-<div class="fragment">
-- "Hi Jedi Master, erstelle mir eine PHP Klasse welche ein Skalarprodukt berechnet."
-</div>
-
-<div class="fragment">
-- "prüfe den Code via phpstan"
+- "Erstelle mir eine PHP Klasse, welche ein Skalarprodukt berechnet."
+- "Prüfe den Code via phpstan."
 </div>
 
 ---
@@ -229,14 +222,12 @@ https://chatgpt.com/g/g-676ef0f991a08191ba499a6401303b1b-legacy-code-jedi
 
 ### Beispiel 3:
 
-https://chatgpt.com/g/g-675240b7404881919a18de0d863d4b97-it-portal
-
 <div class="fragment">
-- "erstelle eine SQL query welche alle Mitarbeiter sortiert nach der letzten Änderung ausgibt"
+- "Erstelle eine SQL Query, welche alle Mitarbeiter sortiert nach der letzten Änderung ausgibt."
 </div>
 
 <div class="fragment">
-- "check if the column really exists"
+- "Prüfe, ob die verwendete Spalte wirklich existiert."
 </div>
 
 ---
@@ -269,18 +260,16 @@ https://chatgpt.com/g/g-675240b7404881919a18de0d863d4b97-it-portal
 
 # Kreatives Schreiben
 
-https://gemini.google.com/app
-
 <div class="fragment">
-- "Wie viele Text (SEO, etc.) wurden im Jahr 2024 mithilfe von LLMs geschrieben?"
+- "Schreibe drei Varianten für einen kurzen Blog-Teaser."
 </div>
 
 <div class="fragment">
-- "Zerlegt diese Industrie (SEO Texte) sich damit nicht selbst?"
+- "Formuliere den Text lockerer, aber fachlich sauber."
 </div>
 
 <div class="fragment">
-- "Welchen Einfluss hat dies auf die Qualität im Web / und somit auf die Google Suche?"
+- "Nenne Gegenargumente und offene Fragen."
 </div>
 
 <div class="fragment">
