@@ -4,14 +4,14 @@
 
 ---
 
-### „Ein statistisches Sprachmodell, das das nächste sinnvolle Token vorhersagt.“
+### „Eine KI, die menschliche Sprache versteht und erzeugt.“
 <br>
 
 <div class="fragment">
 <ul>
-<li>Trainiert auf sehr großen Textmengen.</li>
-<li>Basierend auf Transformer-Architekturen.</li>
-<li>Heute oft multimodal: Text, Bild, Audio und Dateien.</li>
+<li> Versteht und verarbeitet Texte wie ein Mensch.
+<li> Wird in Bereichen wie Kundenservice, Übersetzung und Textgenerierung eingesetzt.
+<li> Beispiele: ChatGPT, Claude, Gemini, Meta's Llama.
 </ul>
 </div>
 
@@ -23,14 +23,10 @@
 
 ---
 
-# Bekannte Modelle
+# Wie funktioniert ein LLM?
 
-<div class="fragment">
-<ul>
-<li>Geschlossen: ChatGPT, Claude, Gemini</li>
-<li>Offen: Llama, Mistral, Qwen, DeepSeek</li>
-<li>Lokal: Ollama, llama.cpp, LM Studio</li>
-</ul>
+<div class="width_img_wrapper_80">
+  ![xkcd](images/xkcd/wherethemagichappens.jpg)
 </div>
 
 ---
@@ -39,96 +35,267 @@
 
 <div class="fragment">
 <ul>
-<li><strong>Pretraining</strong>: lernt Muster, Grammatik und Weltwissen aus Daten.</li>
+<li> **Trainingsdaten**: Milliarden von Texten aus Büchern, Artikeln und Webseiten.
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li><strong>Finetuning</strong>: richtet Verhalten auf Aufgaben, Stil und Sicherheit aus.</li>
+<li> **Mustererkennung**: Nutzt große Datenmengen, um sprachliche Muster zu lernen.
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li><strong>Inferenz</strong>: nutzt Prompt, Kontextfenster und Sampling für Antworten.</li>
+<li> **Parameteranzahl**: Moderne LLMs arbeiten mit Milliarden Parametern.
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li><strong>Tools</strong>: Suche, RAG, Code-Ausführung oder APIs erhöhen den Nutzwert.</li>
+<li> **Kontextbewusstsein**: Versteht den Zusammenhang von Sätzen und generiert relevante Antworten.
 </ul>
 </div>
 
 ---
 
-# Was kann ein LLM heute gut?
+# Was kann ein LLM?
 
-- Inhalte zusammenfassen und strukturieren
-- Übersetzen und umformulieren
-- Fragen über Dokumente beantworten
-- Code erklären, erzeugen und testen helfen
-- Mehrstufige Workflows unterstützen
-
----
-
-# Typische Stärken
-
-### „Schnell im ersten Entwurf, stark bei Fleißarbeit, nützlich mit gutem Kontext.“
-
-<div class="fragment">
-<ul>
-<li>Meeting-Notizen, E-Mails, Tickets, Spezifikationen</li>
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li>Extraktion strukturierter Daten aus unstrukturierten Quellen</li>
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li>Unterstützung bei Recherche, Dokumentation und Refactoring</li>
-</ul>
+<div class="width_img_wrapper_60">
+  ![xkcd](images/xkcd/is_it_worth_the_time.png)
 </div>
 
 ---
 
-# Was ist neu seit 2024?
+# Was kann ein LLM?
+
+- Texte Zusammenfassen / Analysieren
+- Texte Übersetzen
+- Texte Aufwerten
+- Code-Generierung
+- Kreatives Schreiben
+- Automatisierung
+- ...
+
+---
+
+# Texte Zusammenfassen / Analysieren
+
+<div class="width_img_wrapper_60">
+  ![Content](images/xkcd/university_website.png)
+</div>
+
+---
+
+# Texte Zusammenfassen / Analysieren
+
+### „Wesentliche Punkte aus langen Dokumenten in Sekunden extrahieren.“
 
 <div class="fragment">
 <ul>
-<li><strong>Multimodalität</strong>: Text, Bild, Audio, Video und UI-Verständnis</li>
+<li> **Anwendung**: Managementberichte, Meeting-Protokolle.
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li><strong>Reasoning-Modelle</strong>: besser bei mehrstufigen Problemen</li>
+<li> **Vorteil**: Spart Zeit und erleichtert Entscheidungsfindung.
 </ul>
 </div>
 
 <div class="fragment">
 <ul>
-<li><strong>Lange Kontexte</strong>: ganze Dokus, Codebasen und Meetings im Prompt</li>
-</ul>
-</div>
-
-<div class="fragment">
-<ul>
-<li><strong>Kleine lokale Modelle</strong>: mehr Datenschutz und geringere Kosten</li>
+<li> **Beispiel**: 50-seitige Berichte in 5 prägnanten Punkten zusammengefasst.
 </ul>
 </div>
 
 ---
 
-# Gute Praxis im Alltag
+# Texte Übersetzen
 
-1. Aufgabe klar formulieren
-2. Relevanten Kontext mitgeben
-3. Modell an Daten oder Tools anbinden
-4. Ergebnis prüfen, messen und dokumentieren
-5. Keine sensiblen Daten unkontrolliert hochladen
+### „Sprachbarrieren in Echtzeit überwinden.“
+
+z.B.: DeepL (aus Köln)
+
+<div class="fragment">
+<ul>
+<li> **Automatische Übersetzungen**: Texte und Konversationen.
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> **Multilinguale Unterstützung**: Ideal für internationale Teams.
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> **Beispiel**: Übersetzung von E-Mails oder technischen Dokumentationen.
+</ul>
+</div>
+
+---
+
+# Texte Aufwerten
+
+### „Sätze, Absätze und Aufgaben mit Kontextgenauigkeit vervollständigen.“
+
+<div class="fragment">
+<ul>
+<li> **Vorschläge während des Tippens**: E-Mails, Chatnachrichten, Code, ...
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> **Zeitersparnis**: weniger Schreibarbeit durch intelligente Vorschläge
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> **Beispiel**: automatisierte Antworten im Kundenservice / kreative Textideen und Werbeslogans
+</ul>
+</div>
+
+---
+
+# Code-Generierung
+
+### Strukturierte Daten aus unstrukturierten Quellen
+
+<div class="fragment">
+<ul>
+<li> Automatisches Erstellen von SQL-Abfragen
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> Extraktion relevanter Daten aus großen Datenmengen
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> Code-Debugging und -Optimierung / Validierung
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> Code erklären <> Code verstehen
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> **Beispiel**: KI-Tools helfen heute oft beim Boilerplate-Code, Tests und Refactoring.
+</ul>
+</div>
+
+---
+
+<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted" -->
+
+# Code-Generierung
+
+<div class="fragment">
+<h3>Beispiel 1:</h3>
+
+Besseres Autocomplete via lokalem LLM
+</div>
+
+<div class="fragment">
+<h3>Beispiel 2:</h3>
+
+- "Erstelle mir eine PHP Klasse, welche ein Skalarprodukt berechnet."
+- "Prüfe den Code via phpstan."
+</div>
+
+---
+
+<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted" -->
+
+# Code-Generierung
+
+### Beispiel 3:
+
+<div class="fragment">
+- "Erstelle eine SQL Query, welche alle Mitarbeiter sortiert nach der letzten Änderung ausgibt."
+</div>
+
+<div class="fragment">
+- "Prüfe, ob die verwendete Spalte wirklich existiert."
+</div>
+
+---
+
+<!-- .slide: data-background="images/reactions/J47GJ.gif" data-state="inverted" -->
+
+# Kreatives Schreiben
+
+### Unterstützung bei Content-Erstellung
+
+<div class="fragment">
+<ul>
+<li> Geschichten, Gedichte und Skripte schreiben
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> Werbeslogans und Marketingideen
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> Unterstützung bei Autorenblockaden
+</ul>
+</div>
+
+---
+
+# Kreatives Schreiben
+
+<div class="fragment">
+- "Schreibe drei Varianten für einen kurzen Blog-Teaser."
+</div>
+
+<div class="fragment">
+- "Formuliere den Text lockerer, aber fachlich sauber."
+</div>
+
+<div class="fragment">
+- "Nenne Gegenargumente und offene Fragen."
+</div>
+
+<div class="fragment">
+- "Quellen?"
+</div>
+
+---
+
+# Automatisierung von Arbeitsprozessen
+
+### Effizienzsteigerung im Arbeitsalltag
+
+<div class="fragment">
+<ul>
+<li> Automatisches Generieren von Berichten
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> Workflow-Optimierung in Unternehmen
+</ul>
+</div>
+
+<div class="fragment">
+<ul>
+<li> Integration in digitale Assistenten
+</ul>
+</div>

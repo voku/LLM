@@ -1,7 +1,6 @@
 LLM
 =============
 
-Aktualisierte Reveal.js-Folien zu Large Language Models.
+Vortrag über LLMs in Deutsch.
 
-- Slides: https://voku.github.io/LLM/
-- Lokal öffnen: `index.html`
+[Slides](http://voku.github.io/LLM/)
